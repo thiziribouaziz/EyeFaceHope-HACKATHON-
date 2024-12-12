@@ -1,19 +1,15 @@
 * {
     font-family: Abhaya Libre SemiBold;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
                                             /* PAGE CONTACT */
+
 
 /* TITRE CONTACTEZ-NOUS & REJOIGNEZ-NOUS */
 .titre-contactez-nous,
 .titre-rejoignez-nous {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
     width: 80%; 
     margin: 0 auto; 
 }
@@ -38,15 +34,15 @@
     width: 100%;                
     box-sizing: border-box;    
     width: 100%;                
-    max-width: 600px;  
+    max-width: 310px;  
+    margin: 10px auto;
 }
 
 /* TOUT LE CONTAINER DE CONTACT du titre contactez-nous au bouton envoyer */
 .container-contact {
     display: flex;
-    margin: 55px 0;
+    /*margin: 55px 0;*/
     width: 100%;
-    height: 90vh;
 }
 
 .bloc1 {
@@ -59,7 +55,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom left;
-    height: 70vh;
     background-color: #143D73;
 }
 
@@ -186,6 +181,10 @@
     margin: auto;
 }
 
+.container-rejoignez-nous{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
 
 /*IMAGE SUR LE COTE */
 
@@ -268,6 +267,8 @@
     width: 100%;                
     max-width: 600px;  
 }
+
+
 
 @media screen and (max-width: 767px) {
     .container-contact  {
