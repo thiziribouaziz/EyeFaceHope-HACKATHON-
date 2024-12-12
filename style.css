@@ -1,0 +1,298 @@
+* {
+    font-family: Abhaya Libre SemiBold;
+    box-sizing: border-box;
+}
+
+                                            /* PAGE CONTACT */
+
+
+/* TITRE CONTACTEZ-NOUS & REJOIGNEZ-NOUS */
+.titre-contactez-nous,
+.titre-rejoignez-nous {
+    text-align: center;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+/* PARAGRAPHE SOUS LE TITRE CONTACTEZ-NOUS */
+.titre-contactez-nous p {
+    max-width: 600px;
+    margin: auto;
+    color: #AFABAB;
+}
+
+/* ENCADRÉS BLEU ROND POUR TITRE CONTACTEZ-NOUS & REJOIGNEZ-NOUS */
+.titre-rejoignez-nous h1,
+.titre-contactez-nous h1 {
+    background-color: #143D73;  
+    color: white;              
+    border-radius: 18px;       
+    padding: 15px 30px;         
+    text-align: center;         
+    margin: 0 auto;                  
+    font-size: 25px;           
+    width: 100%;                
+    box-sizing: border-box;    
+    width: 100%;                
+    max-width: 310px;  
+    margin: 10px auto;
+}
+
+/* TOUT LE CONTAINER DE CONTACT du titre contactez-nous au bouton envoyer */
+.container-contact {
+    display: flex;
+    /*margin: 55px 0;*/
+    width: 100%;
+}
+
+.bloc1 {
+    width: 70%;
+}
+
+.image-contact{
+    width: 30%;
+    background-image: url(../Images/contactsansfond.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #143D73;
+}
+
+/* LA SECTION du formulaire nom prenom mail envoyer */
+.info-container-contact {
+    display: flex;
+    gap: 85px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 20px;
+}
+/* LA DIV CLASSE du formulaire nom prenom mail envoyer */
+.formulaire-container-contact{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+/* FORM du formulaire nom prenom mail envoyer */
+.formulaire-container-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* NOM & PRENOM  */
+.nom-prenom {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* NOM & PRENOM  */
+.nom-prenom input {
+    width: 250px;
+}
+
+/* NOM & PRENOM & EMAIL & Bouton ENVOYER */
+.input-container-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* NOM & PRENOM & EMAIL & Bouton ENVOYER */
+.input-container-contact label {
+    color: #143D73;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* NOM & PRENOM & EMAIL & Bouton ENVOYER */
+
+.input-container-contact input,
+.input-container-contact textarea {
+    outline: none;
+    border: 1.5px solid  #AFABAB;
+    padding: 12px 15px;
+    resize: none;
+    border-radius: 4px;
+}
+
+/* NOM & PRENOM & EMAIL & Bouton ENVOYER */
+.input-container-contact input:focus,
+.input-container-contact textarea:focus {
+    border: 1.5px solid;
+}
+
+/* NOM & PRENOM & EMAIL & Bouton ENVOYER */
+.input-container-contact textarea {
+    width: 100%;
+    height: 100px;
+}
+
+/*BOUTON ENVOYER */
+.button-primary-btn-contact {
+    outline: none;                        
+    border: 1.5px solid #AFABAB;           
+    padding: 12px 15px;                   
+    border-radius: 4px;                    
+    background-color: white;              
+    color: #143D73;                      
+    font-size: 16px;                       
+    cursor: pointer;                      
+    width: 20%;                          
+    box-sizing: border-box;                
+}
+
+
+.button-primary-btn-contact:focus {
+    border: 1.5px solid #143D73;          
+}
+
+
+.button-primary-btn-contact:hover {
+    background-color: #FF4545;            
+}
+
+
+/*CONTACTEZ NOUS PAR EMAIL */
+.info-container-contact {
+    display: flex;
+    gap: 85px;
+    width: 100%;
+    max-width: 1000px; 
+    padding: 0 20px;
+}
+/*CONTACTEZ NOUS PAR EMAIL */
+.icon-mail-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+/*CONTACTEZ NOUS PAR EMAIL */
+.icon-mail-contact a {
+
+    color: black;
+}
+
+.icon-mail-contact {
+    justify-content: center;
+    margin: auto;
+}
+
+.container-rejoignez-nous{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+/*IMAGE SUR LE COTE */
+
+/*IMAGE SUR LE COTE */
+.photo-rejoindre {   
+                  
+}
+
+
+/* Vidéo de fond */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* Contenu superposé */
+.video-background .overlay-podcast {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   /* background: rgba(0, 0, 0, 0.5); /* Optionnel, ajoute un effet de transparence */
+    z-index: 1;
+}
+
+.video-background .overlay-podcast h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.video-background .overlay-podcast p {
+    font-size: 1.5rem;
+}
+
+.titre-podcast-encours {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    width: 80%; 
+    margin: 40px auto; 
+}
+.titre-podcast-encours h3 {
+    max-width: 600px;
+    margin: auto;
+    color: black;
+    text-align: justify;
+}
+.titre-podcast-encours h1 {
+    background-color: #143D73;  
+    color: white;              
+    border-radius: 18px;       
+    padding: 15px 30px;         
+    text-align: center;         
+    margin: 0 auto;                  
+    font-size: 25px;           
+    width: 100%;                
+    box-sizing: border-box;    
+    width: 100%;                
+    max-width: 600px;  
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .container-contact  {
+       display: flex;
+       flex-direction: column;
+    }
+    .nom-prenom {
+        display : flex;
+        flex-direction : column
+    }
+
+    .nom-prenom input {
+        display : flex;
+        flex-direction : column
+    }
+
+    .titre-contactez-nous {
+        display : flex;
+        flex-direction : column
+    }
+    .titre-rejoignez-nous  {
+        display : flex;
+        flex-direction : column
+    }
+    
+
+ }
