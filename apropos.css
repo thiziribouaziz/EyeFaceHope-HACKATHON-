@@ -50,6 +50,7 @@ padding: 10px 20px;
 }
 .unesco {
   display: flex;
+  margin: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -60,13 +61,16 @@ padding: 10px 20px;
     margin-left: 0;
  }
  .liliapropos{
-    margin:0;
+    margin:8px;
  }
  .macron img {
     width: 100%;
  }
  .apro {
-    margin: 5px;
+    margin: 13px;
+ }
+ .unesco img{
+
  }
 }
 

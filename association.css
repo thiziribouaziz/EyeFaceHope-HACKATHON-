@@ -18,13 +18,14 @@
 }
 .textassociation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background: #d9d9d9;
   margin: 76px 130px;
-  border-radius: 50px 50px;
+  border-radius: 50px 100px 100px 50px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
-  padding: 10px 30px;
+  padding: 0 0 0 30px;
 }
 .imgassociation img {
   max-width: 200px;
@@ -33,19 +34,17 @@
   margin-left: 144px;
 }
 .tissociation {
+  text-align: -webkit-center;
+}
+.tissociation h1 {
   background-color: #143d73;
   color: white;
-  width: 241px;
+  width: 300px;
   border-radius: 80px;
   height: 50px;
   padding: 4px;
   margin: 90px;
-  text-align: -webkit-center;
-}
-.tissociation h1 {
-  max-width: 200px;
-  display: block;
-  border-radius: 49px;
+  text-align: center;
 }
 .vegetable {
   display: flex;
@@ -82,6 +81,7 @@
 }
 .liassouci {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background: #d9d9d9;
   margin: 76px 130px;
@@ -91,6 +91,9 @@
   padding: 2px 2px 0px 11px;
 }
 
+.liassouci ul {
+  margin-left: 50px;
+}
 .liassouci img {
   max-width: 200px;
   display: block;
@@ -99,47 +102,44 @@
 }
 @media screen and (max-width: 767px) {
   .titreassociation h1 {
-    margin: 38px;
+    margin: 22px;
   }
   .textassociation {
-    margin-left: 149px;
-    margin: 0;
-    display: block;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    border-radius: 50px;
   }
   .imgassociation img {
-    margin-left: 59px;
+    margin: 0;
   }
-  .tissociation {
-    margin: 70px;
+  .tissociation h1 {
+    margin: 22px;
   }
   .vegetable {
-    margin-left: 67px;
-    margin: 0;
-    display: table-footer-group;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
   }
   .vegetable img {
-    margin-left: 71px;
+    margin: 0;
   }
   .listil li {
     margin: 10px;
   }
-  .listil li {
-    margin: 10px;
-  }
-  .listil li {
-    margin: 10px;
-  }
+
   .textterre h1 {
     margin: 38px;
   }
   .liassouci {
-    margin-left: 149px;
-    margin: 0;
-    display: block;
+    padding: 20px;
+    margin: 20px;
+   flex-direction: column-reverse;
     border-radius: 44px;
   }
-  .liassouci img {
-    margin-left: 59px;
+  .imgassos img {
+    margin-left: 0;
   }
   .liassouci li {
     margin: 10px;
