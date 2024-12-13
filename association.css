@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.titreassociation {
+  text-align: -webkit-center;
+}
+.titreassociation h1 {
+  background-color: #143d73;
+  color: white;
+  width: 300px;
+  border-radius: 80px;
+  height: 50px;
+  padding: 4px;
+  margin: 90px;
+  text-align: center;
+}
+.textassociation {
+  display: flex;
+  align-items: center;
+  background: #d9d9d9;
+  margin: 76px 130px;
+  border-radius: 50px 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  padding: 10px 30px;
+}
+.imgassociation img {
+  max-width: 200px;
+  display: block;
+  border-radius: 50px;
+  margin-left: 144px;
+}
+.tissociation {
+  background-color: #143d73;
+  color: white;
+  width: 241px;
+  border-radius: 80px;
+  height: 50px;
+  padding: 4px;
+  margin: 90px;
+  text-align: -webkit-center;
+}
+.tissociation h1 {
+  max-width: 200px;
+  display: block;
+  border-radius: 49px;
+}
+.vegetable {
+  display: flex;
+  align-items: center;
+  background: #d9d9d9;
+  margin: 45px 72px;
+  border-radius: 50px 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+}
+.vegetable img {
+  width: 225px;
+  border-radius: 49px;
+  margin-right: 20px;
+}
+.vegetable li {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+.textterre {
+  text-align: -webkit-center;
+}
+.textterre h1 {
+  background-color: #143d73;
+  color: white;
+  width: 300px;
+  border-radius: 80px;
+  height: 50px;
+  padding: 4px;
+  margin: 90px;
+  text-align: center;
+}
+.liassouci {
+  display: flex;
+  align-items: center;
+  background: #d9d9d9;
+  margin: 76px 130px;
+  border-radius: 50px 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  padding: 2px 2px 0px 11px;
+}
+
+.liassouci img {
+  max-width: 200px;
+  display: block;
+  border-radius: 49px;
+  margin-left: 144px;
+}
+@media screen and (max-width: 767px) {
+  .titreassociation h1 {
+    margin: 38px;
+  }
+  .textassociation {
+    margin-left: 149px;
+    margin: 0;
+    display: block;
+  }
+  .imgassociation img {
+    margin-left: 59px;
+  }
+  .tissociation {
+    margin: 70px;
+  }
+  .vegetable {
+    margin-left: 67px;
+    margin: 0;
+    display: table-footer-group;
+  }
+  .vegetable img {
+    margin-left: 71px;
+  }
+  .listil li {
+    margin: 10px;
+  }
+  .listil li {
+    margin: 10px;
+  }
+  .listil li {
+    margin: 10px;
+  }
+  .textterre h1 {
+    margin: 38px;
+  }
+  .liassouci {
+    margin-left: 149px;
+    margin: 0;
+    display: block;
+    border-radius: 44px;
+  }
+  .liassouci img {
+    margin-left: 59px;
+  }
+  .liassouci li {
+    margin: 10px;
+  }
+}
