@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.apro {
+  background-color: #143d73;
+  color: white;
+  width: 368px;
+  border-radius: 80px;
+  height: 50px;
+  padding: 6px;
+  margin: 90px;
+}
+.liliapropos {
+  display: flex;
+  align-items: center;
+  background: #d9d9d9;
+  margin: 76px 130px;
+  border-radius: 50px 150px 150px 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  text-align: center;
+  padding: 10px 10px 10px 30px;
+}
+.aprops img {
+  max-width: 200px;
+  display: block;
+  border-radius: 50%;
+  margin-left: 144px;
+}
+
+.macron {
+  text-align: center;
+}
+.textmacron{  
+text-align: center;
+padding: 10px 20px;
+}
+.macron img {
+  border-radius: 65px;
+  max-height: 540px;
+  margin: auto;
+}
+.unesco img {
+  border-radius: 65px;
+  max-height: 560px;
+  margin: auto;
+  padding-top: 20px;
+}
+.unesco {
+  display: flex;
+  margin: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .macron img  .liliapropos{
+      width: 80%;
+ }
+ .aprops img {
+    margin-left: 0;
+ }
+ .liliapropos{
+    margin:8px;
+ }
+ .macron img {
+    width: 100%;
+ }
+ .apro {
+    margin: 13px;
+ }
+ .unesco img{
+
+ }
+}
+
