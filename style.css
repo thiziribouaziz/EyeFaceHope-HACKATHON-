@@ -1,6 +1,11 @@
+@font-face {
+    font-family: AbhayaLibre-Regular;
+    src: url(./fonts/abhaya-libre/AbhayaLibre-Regular.ttf);
+  }
+
 * {
-    font-family: Abhaya Libre SemiBold;
     box-sizing: border-box;
+    font-family: "AbhayaLibre-Regular";
 }
 
                                             /* PAGE CONTACT */
@@ -27,10 +32,10 @@
     background-color: #143D73;  
     color: white;              
     border-radius: 18px;       
-    padding: 15px 30px;         
+    padding: 0.5rem 2rem;       
     text-align: center;         
     margin: 0 auto;                  
-    font-size: 25px;           
+    font-size: 1.4rem;           
     width: 100%;                
     box-sizing: border-box;    
     width: 100%;                
@@ -43,6 +48,7 @@
     display: flex;
     /*margin: 55px 0;*/
     width: 100%;
+    height: 67.4vh
 }
 
 .bloc1 {
@@ -51,7 +57,7 @@
 
 .image-contact{
     width: 30%;
-    background-image: url(../Images/contactsansfond.png);
+    background-image: url(./Images/contactsansfond.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -198,7 +204,7 @@
 .video-background {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 59vh;
     overflow: hidden;
 }
 
@@ -246,7 +252,7 @@
     flex-direction: column;
     gap: 19px;
     width: 80%; 
-    margin: 40px auto; 
+    margin: 13px auto; 
 }
 .titre-podcast-encours h3 {
     max-width: 600px;
@@ -268,31 +274,47 @@
     max-width: 600px;  
 }
 
+/* Style pour la boîte de confirmation */
+.confirmation-box {
+    position: fixed; /* Fixe la position */
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste pour un vrai centrage */
+    background-color: #143D73; /* Couleur de fond verte */
+    color: white; /* Texte blanc */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 9999; /* S'assurer que la boîte soit au-dessus d'autres éléments */
+    max-width: 400px; /* Largeur maximale de la boîte */
+    width: 80%; /* Largeur relative */
+}
+
 
 
 @media screen and (max-width: 767px) {
     .container-contact  {
        display: flex;
        flex-direction: column;
+       height: auto;
     }
-    .nom-prenom {
-        display : flex;
-        flex-direction : column
+
+    .bloc1{
+        width: 100%;
     }
+
 
     .nom-prenom input {
-        display : flex;
-        flex-direction : column
+        width: 100%;
     }
 
-    .titre-contactez-nous {
-        display : flex;
-        flex-direction : column
+    .button-primary-btn-contact{
+        width:100%
     }
-    .titre-rejoignez-nous  {
-        display : flex;
-        flex-direction : column
-    }
+
     
 
  }
